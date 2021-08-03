@@ -1,0 +1,151 @@
+.square1 {
+    height: 121px;
+    width: 250px;
+    background-color: #F4B0E7 ;
+    padding-top:  3px;
+    padding-right: 550px;
+    margin-top: 0px;
+    font-family: Arial;
+    margin-left: 247px;
+
+}
+
+
+.square2{
+    height: 121px;
+    width: 300px;
+    background-color: #F987C5;
+    padding-top: 31px ;
+    margin-top: 80px;
+    margin-left: -410px;
+    padding-top:  3px;
+    padding-right: 550px;
+    font-family: Arial;
+}
+.square3 {
+    height: 108px;
+    width: 300px;
+    background-color: #D6CFC7;
+    padding-top:  3px;
+    margin-top: 10px;
+    margin-left: 247px;
+    padding-right: 550px;
+    font-family: Arial;
+
+}
+
+.button4 {
+    margin-left: 1200px;
+    border-radius: 12px;
+    font-family: Arial;
+    margin-right: 10px;
+    margin-top: 9px;
+    padding-right: 44px;
+    padding-left: 75px;
+    padding-bottom: 25px;
+    padding-top: 9px;
+    height: 46px;
+    width: 56px;
+}
+.h3{
+  margin-top: -21px;
+  margin-left: -20px;
+}
+
+.column {
+    margin-left: 200px;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.square1 .header1{
+    text-align:-webkit-right;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+
+.square2 .header2{
+    text-align:-webkit-right;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.headerH2{
+
+    font-family: Arial;
+    width: max-content;
+    font-stretch: expanded;
+    font-size: 41px;
+    margin-left: 491px;
+    word-spacing:20px;
+}
+
+.hr1{
+    margin-top: 10px;
+    margin-right: 117px
+}
+
+.button4 {
+    margin-left:  1248px;
+    border-radius: 12px;
+    font-family: Arial;
+    margin-right: 10px;
+    margin-top: 9px;
+    padding-right: 44px;
+    padding-left: 44px;
+    padding-bottom: 13px;
+    padding-top: 9px;
+}
+
+.head1{
+    margin-left: 265px;
+    margin-top: -51px;
+}
+
+
+.head2{
+    margin-left: 210px;
+    margin-top: -36px;;
+
+}
+.head3{
+    margin-left:   234px;
+    margin-top: -32px;
+
+}
+
+
+.glyphicon {
+    font-size: 70px;
+}
+
+
+
+.btn{
+    width:50%;
+    position:relative;
+    height:50px;
+}
+
+.icon{
+    position:absolute;
+    left:18px;
+    top:9px;
+    font-size:30px;
+}
+
+.wrapper{
+    padding:5%;
+}
+
+.fa-lg{
+    font-size: 6.333333em;
+}

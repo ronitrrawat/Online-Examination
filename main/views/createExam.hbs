@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/admin.css">
+    <script src="https://use.fontawesome.com/Your-Unique-Code.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+
+    
+</head>
+<body>
+    <div>
+        <button class="button button4"> <i class="fa fa-power-off" style=" margin-right: 4px; font-size: 1.555555em; margin-left: -93px;"></i><h3 class="h3">Logout </h3></button><br>
+        <hr>
+        <div class="heading">
+            <h2 >Create new Exam</h2>
+        </div>
+    </div>
+    <div class="fdiv">
+        <form class="fclass" action="">
+           
+             <label for="" style="margin-top:50px;font-size: 22px;"><b>Date</b></label>
+            <input  class="inp" style="margin-top: 15px;margin-left: 20px" type="text" id="txtDate" name="SelectedDate" readonly="readonly"><i class="fa fa-calendar" style=" margin-right: 0px; font-size: 1.555555em; margin-left: -33px;"></i><br>
+
+            
+
+             <label style="margin-left: -50px; font-size: 22px;" for=""><b>Exam Name</label>
+            <input class="inp" style="margin-top: 20px;margin-left: 10px" type="text"><br>
+
+            
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js" type="text/javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js" type="text/javascript"></script>
+<link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="Stylesheet" type="text/css" />
+<script type="text/javascript">
+    $(function () {
+        $("#txtDate").datepicker({
+            dateFormat: 'dd/mm/yy'
+        });
+    });
+</script>
+            
+
+             <button class="button button3"><b>Save</b></button> <button class="button button3" style=" background-color: #dcdcdc"><b>Cancel</b></button>
+
+        </form>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,88 @@
+h1{
+    text-align: center;
+    color: #f44336;
+  }
+  .button {
+    background-color: #dcdcdc;
+    border: none;
+    padding: px;
+    text-align:top;
+    text-indent: 5px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    margin-left: 1100px;
+    height: 50px;
+    width:fit-content;
+  }
+  .button4 {
+    margin-left: 1200px;
+    border-radius: 12px;
+    font-family: Arial;
+    margin-right: 10px;
+    margin-top: 9px;
+    padding-right: 44px;
+    padding-left: 75px;
+    padding-bottom: 25px;
+    padding-top: 9px;
+    height: 46px;
+    width: 56px;
+}
+.h3{
+  margin-top: -21px;
+  margin-left: -33px;
+}
+
+  .button3 {
+    border-radius: 20px ;
+    border-color: black;
+    
+    background-color: lightpink;
+    border: black;
+    padding: 20px;
+
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 40px 20px;
+    margin-left: 80px;
+    width: 150px;
+  }
+
+
+  #b1 {
+    text-align:center;
+    padding: 20px;
+  }
+
+  .heading {
+    background-color: lightpink;
+    width: 600px;
+    margin-left: 350px;
+    text-align: center;
+    height: 50px;
+    padding-top: 0px;
+    padding-bottom: 1px;
+    margin-top: -22px;
+
+  }
+  .heading2 {
+     background-color:  lightpink;
+    width: 200px;
+    margin-left: 600px;
+    text-align: center;
+    height: 30px;
+  }
+
+  .fdiv {
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 20px;
+  }
+
+  .inp {
+    height: 50px;
+  }
+
+ 

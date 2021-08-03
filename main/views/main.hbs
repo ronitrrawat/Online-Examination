@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Online Examination Center</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto:100,300,400,500,700|Philosopher:400,400i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ======= Header ======= -->
+<header id="header" class="header fixed-top d-flex align-items-center">
+    <div class ="headcenter">
+        <h1 style="
+    margin-right: 600px;font-size:60px; font-family: 'Palatino Linotype';font-weight: 700" > Welcome to OES</h1>
+    </div>
+    </div>
+</header><!-- End Header -->
+
+<div  class="row">
+    <div class="column">
+        <img id="img1"  src="/assets/img/desktop.png" style="width:100%; margin-left: 150px;">
+    </div>
+    <div class="column">
+        <img  id="img2" src="/assets/img/laptop.png" style="width:130%; margin-left: 180px;">
+    </div>
+    <div class="column">
+        <img  id="img3" src="/assets/img/browser.png" style="width:120%; margin-left: 250px;">
+    </div>
+</div>
+<div class="form" >
+    <div class="tab-header">
+        <div class="active">Login</div>
+        <div>Register</div>
+    </div>
+    <div class="tab-content">
+        <div class="tab-body active">
+
+<form id="login" action="/login" method="POST">
+
+            <div class="form-group">
+                <label id="label1" style=" margin-bottom: 15px;margin-top:20px" >Login into your account</label>
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope color-blue"></i></span>
+                <input  id="email" name="email" type="text" class="form-control"  style="margin-top: 0px;" placeholder="Email/Mobile Number">
+            </div>
+
+            <div class="input-group" style=" margin-top: 10px;">
+                <span class="input-group-addon"><i class="fa fa-key"></i></span>
+                <input id="password" name="password" style="margin-top: 0px;"  name="password" placeholder="Password" class="form-control"  type="password">
+            </div>
+            </div>
+            <div class="form-element">
+
+                <a href= "/resetpass"  style="margin-left: 100px;">Forgot Password?</a>
+            </div>
+
+            <div class="form-element">
+                <button>Login</button>
+            </div>
+        </div>
+        </form>
+        
+
+        <div class="tab-body">
+
+      <form id="register-form" action="/register" method="POST">
+            <div class="input-group" >
+                <span class="input-group-addon"><i class="glyphicon glyphicon-envelope color-blue"></i></span>
+                <input style="margin-top: 0px;" type="text" id="email" name="email" class="form-control" placeholder="Email Id">
+            </div>
+
+            <div class="input-group"  style=" margin-top: 10px;">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                <input style="margin-top: 0px;" type="text" id="name" name="name" class="form-control" placeholder="Full name" >
+            </div>
+
+            <div class="input-group"  style=" margin-top: 10px;">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-phone"></i></span>
+                <input style="margin-top: 0px;" type="number" id="mobilenumber" name="mobile" class="form-control" placeholder="Mobile Number" >
+            </div>
+
+            <div class="input-group"  style=" margin-top: 10px;">
+                <span class="input-group-addon"><i class="glyphicon glyphicon-map-marker"></i></span>
+                <input style="margin-top: 0px;" type="text" id="address" name="address" class="form-control" placeholder="Address">
+            </div>
+
+            <div class="input-group"  style=" margin-top: 10px;">
+                <span class="input-group-addon"><i class="fa fa-key"></i></span>
+                <input style="margin-top: 0px;" type="password" id="password" name="password" class="form-control" placeholder="Password">
+            </div>
+
+            <div class="input-group"  style=" margin-top: 10px;">
+                <span class="input-group-addon"><i class="fa fa-key"></i></span>
+                <input  style="margin-top: 0px;" type="password" id="confirmpassword" name="confirmpassword" class="form-control" placeholder="Confirm Password">
+            </div>
+
+
+            <div class="form-element">
+                <button>Register</button>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!--<script>-->
+<!--    $('.signUp').click(function(){-->
+<!--        $('.form2').animate({height:"toggle",opacity:"toggle","slow"})-->
+<!--    })-->
+<!--</script>-->
+
+<script>
+let tabPanes = document.getElementsByClassName("tab-header")[0].getElementsByTagName("div");
+
+for(let i=0;i<tabPanes.length;i++){
+tabPanes[i].addEventListener("click",function(){
+document.getElementsByClassName("tab-header")[0].getElementsByClassName("active")[0].classList.remove("active");
+tabPanes[i].classList.add("active");
+
+document.getElementsByClassName("tab-content")[0].getElementsByClassName("active")[0].classList.remove("active");
+document.getElementsByClassName("tab-content")[0].getElementsByClassName("tab-body")[i].classList.add("active");
+});
+}
+</script>
+
+
+        <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+        <!-- Vendor JS Files -->
+        <script src="assets/vendor/aos/aos.js"></script>
+        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+        <script src="assets/vendor/php-email-form/validate.js"></script>
+        <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+        <!-- Template Main JS File -->
+        <script src="assets/js/main.js"></script>
+        <script src="/js/index.js"></script>
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+</body>
+
+</html>

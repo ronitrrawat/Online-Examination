@@ -1,0 +1,92 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<link rel="stylesheet" href="css/resetpass.css">
+<script src="js/index.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<div class="form-gap"></div>
+<div class="container" id="contain1">
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="text-center">
+                        <h3 class="text-center"><b>Forgot Password?</b></h3>
+                        <label class="lbl"><b>Email/Mobile Number</b></label>
+                        <div class="panel-body">
+                            <form id="form" role="form" classautocomplete="off" class="form" method="post">
+
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope color-blue"></i></span>
+                                        <input id="email" name="email" placeholder="email address" class="form-control"  type="email">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                  
+                                     <!--  <input for ="show" name="recover-submit"  type="button" id="formButton" class="btn btn-lg btn-primary btn-block"  value="Continue" />-->
+                                           <button type="button" class="button button1" id="formButton1" style=""><b>Continue</b></button>
+                                </div>
+
+                                <input type="hidden" class="hide" name="token" id="token" value="">
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="form-gap"></div>
+<div class="container" id="contain2">
+    <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="text-center">
+                        <h3 class="text-center"><b>Forgot Password?</b></h3>
+                        <div class="panel-body">
+
+                            <form id="formButton" class="formforgot" role="form" autocomplete="off" class="form" method="post">
+
+                                <div class="form-group">
+                                    <label class="lbl3"><b>OTP sent to your email</b></label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope color-blue"></i></span>
+                                        <input id="email" name="email" placeholder="Email" class="form-control"  type="email">
+                                    </div>
+
+                                    <label class="lbl2"><b>Resend OTP</b></label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="fa fa-key"></i></span>
+                                        <input id="otp" name="otp" placeholder="OTP" class="form-control"  type="text">
+                                    </div>
+                                    <br>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="fa fa-key"></i></span>
+                                        <input id="setnewpassword" name="setnewpassword" placeholder="Set New Password" class="form-control"  type="email">
+
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                <button type="button" class="button button2" id="formButton2" style=""><b>Login</b></button>
+                                </div>
+
+                                <input type="hidden" class="hide" name="token" id="token" value="">
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
